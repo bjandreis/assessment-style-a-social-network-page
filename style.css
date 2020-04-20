@@ -149,7 +149,7 @@ button {
     margin: auto;
     margin-top: 10px;
     width: 328px;
-    height: 200px;
+    height: 287px;
     padding: 10px;
     background-color: white;
     top: 50px;
@@ -164,7 +164,7 @@ button {
     margin: auto;
     margin-top: 10px;
     width: 512px;
-    height: 300px;
+    height: 360px;
     padding: 10px;
     background-color: white;
     top: 50px;
@@ -174,11 +174,41 @@ button {
     z-index: 4;
 }
 
+.filler-box-r1, .filler-box-r2 {
+    width: 490px;
+    height: 200px;
+    background-color: #4b5b9e;
+    border: 1px solid black;
+    border-radius: 4px;
+    position: relative;
+    top: 5px;
+    z-index: 1;
+}
+
+.filler-box-l1, .filler-box-l2, .filler-box-l3 {
+    width: 90px;
+    height: 90px;
+    background-color: #4b5b9e;
+    border: 1px solid black;
+    border-radius: 4px;
+    position: relative;
+    top: 5px;
+    z-index: 1;
+}
+.filler-box-l2 {
+    top: -1px;
+    left: 107px;
+}
+.filler-box-l3 {
+    top: -91px;
+    left: 215px;
+}
+
 .footer {
     margin: auto;
-    margin-top: 10px;
+    margin-bottom: auto;
     width: 850px;
     height: 1px;
     position: relative;
-    top: 685px;
+    top: 947px;
 }
